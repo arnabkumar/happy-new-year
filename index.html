@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+   
+ <link rel="stylesheet" href="styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <section class="intro_area text-center">
+	<div class="intro_area_bg_overlay"></div>
+	 <div class="intro_content">
+	  
+	  <div class="container">
+	    <blockquote class="page_header">
+	    <h2>happy new year to all of you</h2>
+		 <footer><h5>Arnab Kumar Halder</h5></footer>
+	   </blockquote >
+     <div class="row">
+     	<div class="col-xs-12">
+		 <h1 class="two">2</h1>
+		 <h1 class="zero">0</h1>
+		 <h1 class="one">1</h1>
+		 <h1 class="five">5</h1>
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+	</section>
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	
+	 <script src="http://rawgithub.com/davatron5000/FitText.js/master/jquery.fittext.js"></script>
+	 
+	 <script type="text/javascript">
+	 $(document).ready(function() {
+    	// active fittext
+		
+		$(".intro_area h1").fitText(0.100);
+		jQuery("div.intro_content h2").fitText(1, { minFontSize: '21px', maxFontSize: '76px' });
+		
+		//intro section hover effects
+	
+	$("section.intro_area").mouseenter(function() {
+    $(".intro_area_bg_overlay").css("opacity","0.12");
+}).mouseleave(function() {
+    $(".intro_area_bg_overlay").css("opacity","0.25");
+	
+	});
+		
+  	});
+	 </script>
+	
+  </body>
+</html>
